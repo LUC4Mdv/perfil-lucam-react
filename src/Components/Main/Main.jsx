@@ -36,7 +36,7 @@ function Main() {
                 <div className="perfil">
                     <h1 className="nome">Lucas Gabriel</h1>
                     <h2>{MyComponent()}</h2>
-                    <p className="link"><em>lucam-dev.vercel.app/</em></p>
+                    <p className="link"><em>lucam-dev.vercel.app</em></p>
                     <h2><i className="fa-solid fa-thumbs-up"></i> Seja bem-vindo(a)!</h2>
                     <p>Desenvolvedor web Full-Stack</p>
                     <p>Site em desenvolvimento</p>
