@@ -1,0 +1,26 @@
+@import"./medias.css";
+
+:root {
+    --text-color: #444444;
+    --color: #d1d1d1;
+    --bg-text: #d1d1d18c;
+    --background: #fff;
+    --scroll: #151515;
+    --border-tema: #38383871;
+    --bordinha: #000000cb;
+    --type: #005fad;
+    --tema: url("../assets/Moon.svg");
+
+}
+
+.dark {
+    --text-color: #fff;
+    --color: #5e5e5e;
+    --bg-text: #8a8a8a8c;
+    --background: #151515;
+    --scroll: #fff;
+    --border-tema: #ffffff8f;
+    --bordinha: #ffffffd5;
+    --type: #008cff;
+    --tema: url("../assets/SunWhite.svg");
+}
