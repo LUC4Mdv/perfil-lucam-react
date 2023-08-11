@@ -1,0 +1,34 @@
+div.tema{
+    height: 1px;
+    display: flex;
+    justify-content: end;
+    width: 95vw;
+}
+
+button.tema{
+    background-color: var(--bg-text);
+    box-shadow: 0px 0px 4px var(--bordinha);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0;
+    transition: .2s ease;
+    margin-top: 1%;
+}
+
+button.tema:hover{
+    opacity: 70%;
+}
+
+button.tema img{
+    height: 30px;
+    padding: 14px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: var(--tema);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

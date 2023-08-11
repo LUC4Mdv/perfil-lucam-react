@@ -1,0 +1,38 @@
+@import"./root/root.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css");
+@import url("https://fonts.gstatic.com");
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: var(--type);
+    border-radius: 50px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html{
+    transition: .2s ease;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--background);
+    color: var(--color);
+    max-width: 1024px;
+}
