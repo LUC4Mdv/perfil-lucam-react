@@ -24,9 +24,6 @@ function Projects() {
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-                >
                 <SwiperSlide><img className='slide-img-1' /></SwiperSlide>
                 <SwiperSlide><img className='slide-img-2' /></SwiperSlide>
                 <br />
