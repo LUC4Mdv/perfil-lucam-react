@@ -8,5 +8,5 @@ Um projeto web. <br>
 <img src="https://readme-components.vercel.app/api?component=logo&logo=React&text=false&animation=spin&textfill=bface6&"/>
 <h3 align="center">React.js</h3>
 
-#  https://luc4mdv.github.io/perfil-lucam-react
+#  site.com/em_breve
 </div>
