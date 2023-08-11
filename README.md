@@ -7,5 +7,5 @@ Um projeto web. <br>
 
 <img src="https://readme-components.vercel.app/api?component=logo&logo=React&text=false&animation=spin&textfill=bface6&"/>
 
-#  https://luc4mdv.github.io/perfil-lucam-html/
+#  https://lucam-dev.vercel.app/
 </div>
