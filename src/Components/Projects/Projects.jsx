@@ -27,9 +27,9 @@ function Projects() {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 >
-                <SwiperSlide><a href="#"><img className='slide-img-1' /></a></SwiperSlide>
-                <SwiperSlide><a href="#"><img className='slide-img-2' /></a></SwiperSlide>
-                .
+                <SwiperSlide><img className='slide-img-1' /></SwiperSlide>
+                <SwiperSlide><img className='slide-img-2' /></SwiperSlide>
+                <br />
             </Swiper>
             </div>
 
