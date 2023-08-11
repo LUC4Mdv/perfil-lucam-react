@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-bottom: 15px;
+    background-color: var(--background);
+}
+
+footer p{
+    text-align: center;
+    display: block;
+}
