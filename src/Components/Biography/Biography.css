@@ -50,7 +50,7 @@ section#biography .profile-text .conteudo .p{
 }
 
 section#biography .profile-photo{
-    background-image: url("https://github.com/LUC4Mdv.png");
+    background-image: url("../../img/lucas-02.jpg");
     background-size: cover;
     background-position: center;
     width: 255px;
