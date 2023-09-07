@@ -22,9 +22,9 @@ header .logo-pai{
 }
 
 header .logo{
-    background-image: url("https://github.com/LUC4Mdv.png");
+    background-image: url("../../img/lucam.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     width: 145px;
     height: 145px;
     border-radius: 50%;
