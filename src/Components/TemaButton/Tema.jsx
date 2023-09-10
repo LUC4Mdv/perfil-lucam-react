@@ -1,21 +1,29 @@
 import './Tema.css'
 
-function TemaButton(){
-  const html = document.documentElement
-
-  html.classList.toggle("dark")
- }
+let html = document.documentElement
 
 function Tema() {
+  function mudarTema() {
+    html.classList.toggle('dark')
+
+    localStorage.setItem('Tema', JSON.stringify(html.className))
+  }
+
+    let getTema = JSON.parse(localStorage.getItem('Tema'))
+    if(getTema == 'dark'){
+      html.className = 'dark'
+    } 
+
   return (
     <>
       <div className="tema">
-        <button className="tema" onClick={TemaButton} tabIndex={1}>
-            <img />
+        <button className="tema" onClick={mudarTema} tabIndex={1}>
+          <img />
         </button>
       </div>
     </>
-  )
+  );
 }
+
 
 export default Tema
