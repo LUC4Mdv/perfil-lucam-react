@@ -43,9 +43,9 @@ function Main() {
                 </div>
                 <div className="icons">
                     <ul>
-                        <li><a href="https://www.instagram.com/lucam_pvd" target='_blank' rel='noreferrer' tabIndex="1"><i className="fa-brands fa-instagram" title="INSTAGRAM"></i></a></li>
-                        <li><a href="https://github.com/LUC4Mdv" target='_blank' rel='noreferrer' tabIndex="2"><i className="fa-brands fa-github" title="GITHUB"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/lucas-gabriel-boamarcha-681575245/" target='_blank' rel='noreferrer' tabIndex="3"><i className="fa-brands fa-linkedin" title="LINKEDIN"></i></a></li>
+                        <li><a href="https://www.instagram.com/lucam_pvd" target='_blank' rel='noreferrer' tabIndex="3"><i className="fa-brands fa-instagram" title="INSTAGRAM"></i></a></li>
+                        <li><a href="https://github.com/LUC4Mdv" target='_blank' rel='noreferrer' tabIndex="4"><i className="fa-brands fa-github" title="GITHUB"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/lucas-gabriel-boamarcha-681575245/" target='_blank' rel='noreferrer' tabIndex="5"><i className="fa-brands fa-linkedin" title="LINKEDIN"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -53,8 +53,8 @@ function Main() {
             <div className="conteudo">
                 <div className="links">
                     <ul>
-                        <li><a href="#" tabIndex="4">Portifolio</a></li>
-                        <li><a href="#" tabIndex="5">Certificações</a></li>
+                        <li><a href="#" tabIndex="1">Portifolio</a></li>
+                        <li><a href="#" tabIndex="2">Certificações</a></li>
                     </ul>
                 </div>
             </div>
