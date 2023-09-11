@@ -53,8 +53,8 @@ function Main() {
             <div className="conteudo">
                 <div className="links">
                     <ul>
-                        <li><a href="#" tabIndex="0">Portifolio</a></li>
-                        <li><a href="#" tabIndex="0">Certificações</a></li>
+                        <li><a href="#certified" tabIndex="0">Certificações</a></li>
+                        <li><a href="#" tabIndex="0">Projetos</a></li>
                     </ul>
                 </div>
             </div>
