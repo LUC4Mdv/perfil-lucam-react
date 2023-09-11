@@ -73,9 +73,6 @@
         width: 70vw;
     }
 
-    section#projects .projects-main .projects-tecs .icons{
-        width: 80vw;
-    }
 
     footer{
         padding-bottom: 0.5em;
@@ -99,8 +96,9 @@
     }
 
 
-    section#projects .projects-main .projects-slides{
-        width: 90vw;
+    section#certified .certified-main .certified-slides{
+        width: 95%;
+        margin: auto;
     }
 
 }
@@ -148,6 +146,7 @@
     div.scroll-top{
         margin-top: 80%;
     }
+
 
     footer{
         padding-bottom: 0.5em;

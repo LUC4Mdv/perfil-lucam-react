@@ -30,7 +30,7 @@ function Biography() {
         <section id="biography">
             <div className="profile-text">
                 <div className="conteudo">
-                    <h1>Biografia</h1>
+                    <h2>Biografia</h2>
                     <h3 className="p">{Desc()}</h3>
                     <p className="bio-1">Me chamo Lucas Gabriel, nasci em 2005.<br /> 
                         <br /> Sou um jovem apaixonado por tecnologia e desenvolvimento de software,

@@ -24,9 +24,10 @@
 
 html{
     transition: .2s ease;
-    overflow-x: hidden;
     height: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 body{

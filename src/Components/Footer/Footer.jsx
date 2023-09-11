@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
         <footer>
-            <p>&copy; <strong>Site desenvolvido por: <em><a href="https://www.instagram.com/lucam_pvd" target='_blank' rel='noreferrer'>@lucam</a>.</em></strong></p>
+            <p><span>&copy;</span> <strong>Site desenvolvido por: <em><a href="https://www.instagram.com/lucam_pvd" target='_blank' rel='noreferrer'><span>@lucam</span></a>.</em></strong></p>
         </footer>
     </>
   )
