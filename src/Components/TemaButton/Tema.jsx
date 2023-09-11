@@ -17,8 +17,8 @@ function Tema() {
   return (
     <>
       <div className="tema">
-        <button className="tema" onClick={mudarTema} tabIndex={0}>
-          <img alt=""/>
+        <button className="tema" onClick={mudarTema} >
+          <img alt="" tabIndex={0}/>
         </button>
       </div>
     </>
