@@ -8,7 +8,7 @@ function MyComponent() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Programador Full-Stack'],
+      strings: ['Programador', 'Designer Gráfico', 'Freelancer'],
       typeSpeed: 155,
       backSpeed: 100,
       loop: true,
@@ -34,18 +34,20 @@ function Main() {
         <main>
             <div className="info">
                 <div className="perfil">
-                    <h1 className="nome">Lucas Gabriel</h1>
+                    <h1 className="nome">LUCAM</h1>
                     <h2>{MyComponent()}</h2>
-                    <p className="link"><em>lucam.site</em></p>
+                    <p className="link"><em>www.lucam.site</em></p>
                     <h2><i className="fa-solid fa-thumbs-up"></i> Seja bem-vindo(a)!</h2>
-                    <p>Desenvolvedor web Full-Stack</p>
-                    <p>Site em desenvolvimento</p>
+                    <p className='des'>Faça seu orçamento no discord</p>
+                    <p className='des'><i class="fa-brands fa-discord"></i> Discord: luc4m_</p>
                 </div>
                 <div className="icons">
                     <ul>
-                        <li><a href="https://www.instagram.com/lucam_pvd" target='_blank' rel='noreferrer' tabIndex="0"><i className="fa-brands fa-instagram" title="INSTAGRAM"></i></a></li>
-                        <li><a href="https://github.com/LUC4Mdv" target='_blank' rel='noreferrer' tabIndex="0"><i className="fa-brands fa-github" title="GITHUB"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/lucas-gabriel-boamarcha-681575245/" target='_blank' rel='noreferrer' tabIndex="0"><i className="fa-brands fa-linkedin" title="LINKEDIN"></i></a></li>
+                        <li><i class="fa-solid fa-code"></i></li>
+
+                        <li><i class="fa-solid fa-palette"></i></li>
+
+                        <li><i class="fa-solid fa-money-check-dollar"></i></li>
                     </ul>
                 </div>
             </div>
@@ -53,8 +55,8 @@ function Main() {
             <div className="conteudo">
                 <div className="links">
                     <ul>
-                        <li><a href="#certified" tabIndex="0">Certificações</a></li>
-                        <li><a href="#" tabIndex="0">Projetos</a></li>
+                        <li><a href="#biography" tabIndex="0">Biografia</a></li>
+                        <li><a href="#projects" tabIndex="0">Projetos</a></li>
                     </ul>
                 </div>
             </div>

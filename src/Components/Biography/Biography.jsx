@@ -7,7 +7,7 @@ function Desc() {
   
     React.useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ['Breve descrição.'],
+        strings: ['"As notas que quero, não vem da escola..."'],
         typeSpeed: 130,
         loop: false,
       });
@@ -30,11 +30,9 @@ function Biography() {
         <section id="biography">
             <div className="profile-text">
                 <div className="conteudo">
-                    <h2>Biografia</h2>
+                    <h2><i class="fa-solid fa-dollar-sign"></i> Lucam </h2>
                     <h3 className="p">{Desc()}</h3>
-                    <p className="bio-1">Me chamo Lucas Gabriel, nasci em 2005.<br /> 
-                        <br /> Sou um jovem apaixonado por tecnologia e desenvolvimento de software,
-                        <br /> especialmente no setor de desenvolvimento web.</p>
+                    <p className="bio-1">Criando sistemas apenas por diversão, meu legado é sempre achar graça nas pequenas coisas.</p>
                 </div>
             </div>
 

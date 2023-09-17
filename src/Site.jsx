@@ -2,8 +2,8 @@ import Header from './Components/Header/Header'
 import Tema from './Components/TemaButton/Tema'
 import Main from './Components/Main/Main';
 import Biography from './Components/Biography/Biography'
-import Certified from './Components/Certified/Certified'
 import Footer from './Components/Footer/Footer';
+import Projects from './Components/Projects/Projects';
 
 function Site() {
 
@@ -14,7 +14,7 @@ function Site() {
      <Tema />
      <Main />
      <Biography />
-     <Certified />
+     <Projects />
      <Footer />
     </>
   )

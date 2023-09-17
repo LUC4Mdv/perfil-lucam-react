@@ -24,6 +24,12 @@ main .info .perfil{
 
 main .info .perfil p.link{
     margin-bottom: 10%;
+    opacity: 70%;
+}
+
+main .info .perfil p.des{
+    opacity: 70%;
+    padding: 4px;
 }
 
 
@@ -36,7 +42,7 @@ main .info .icons{
 
 
 main .info .icons i{
-    font-size: 2.5em;
+    font-size: 2em;
     color: var(--text-color);
     transition: .2s ease;
     padding: 10px;

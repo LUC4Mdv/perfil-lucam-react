@@ -95,8 +95,11 @@
         display: none;
     }
 
+    section#biography .profile-text .conteudo{
+        padding: 20px;
+    }
 
-    section#certified .certified-main .certified-slides{
+    section#projects .projects-main .projects-slides{
         width: 95%;
         margin: auto;
     }
