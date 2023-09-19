@@ -1,3 +1,9 @@
+@media (max-width: 1013px){
+    section#tables .tables-main .tables-slides .card-3{
+        display: none;
+    }
+}
+
 @media (max-width: 960px){
     body{
         overflow-x: hidden;
@@ -80,6 +86,20 @@
 
 }
 
+@media (max-width: 770px){
+    section#tables{
+        height: 200vh;
+    }
+    section#tables .tables-main .tables-slides{
+        flex-direction: column;
+    }
+
+    section#tables .tables-main .tables-slides .card{
+        height: 510px;
+        gap: 50px;
+    }
+}
+
 @media (max-width: 590px){
     main{
         margin-top: 15%;
@@ -106,6 +126,11 @@
 
 }
 
+@media (max-width: 368px){
+    section#tables .tables-main .tables-slides .card{
+        width: 300px;
+    }
+}
 
 @media (max-width: 350px){
     body{

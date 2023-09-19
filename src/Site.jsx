@@ -4,6 +4,8 @@ import Main from './Components/Main/Main';
 import Biography from './Components/Biography/Biography'
 import Footer from './Components/Footer/Footer';
 import Projects from './Components/Projects/Projects';
+import Tables from './Components/Tables/Tables';
+
 
 function Site() {
 
@@ -14,7 +16,7 @@ function Site() {
      <Tema />
      <Main />
      <Biography />
-     <Projects />
+     <Tables />
      <Footer />
     </>
   )

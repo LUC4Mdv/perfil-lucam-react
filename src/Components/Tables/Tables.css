@@ -1,0 +1,92 @@
+section#tables{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 1%;
+}
+
+section#tables .tables-main{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+section#tables .tables-main h2{
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+}
+
+span{
+    color: var(--type);
+}
+
+
+section#tables .tables-main .tables-slides{
+    width: 99%;
+    height: 86%;
+    margin: auto;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+section#tables .tables-main .tables-slides .card{
+    height: 470px;
+    border-radius: 20px;
+    width: 350px;
+    background-color: #1f1f1fbd;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 1px 1px 1px var(--bordinha);
+
+}
+
+section#tables .tables-main .tables-slides .card i{
+    font-size: 5em;
+    color: var(--icon);
+}
+
+section#tables .tables-main .tables-slides .card i{
+    font-size: 5em;
+}
+
+
+section#tables .tables-main .tables-slides .card ul li{
+    display: flex;
+    gap: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+    color: #d3d3d3;
+}
+
+
+section#tables .tables-main .tables-slides .card ul li i{
+    font-size: 1em;
+    color: var(--type);
+}
+
+
+
+section#tables .tables-main .tables-slides .card button{
+    padding: 15px 100px;
+    border: 0;
+    font-size: 1.2em;
+    border-radius: 20px;
+    color: var(--text-color);
+    background-color: var(--color);
+    transition: .2s ease;
+    box-shadow: 1px 1px 1px var(--bordinha);
+    cursor: pointer;
+}
+
+section#tables .tables-main .tables-slides .card button:hover{
+    opacity: 70%;
+}
