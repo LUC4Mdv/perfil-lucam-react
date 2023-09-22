@@ -87,6 +87,11 @@
 }
 
 @media (max-width: 770px){
+    header div.logo{
+        height: 120px;
+        width: 120px;
+    }
+
     section#tables{
         height: 200vh;
     }
@@ -127,6 +132,15 @@
 }
 
 @media (max-width: 368px){
+    header div.logo{
+        height: 110px;
+        width: 110px;
+    }
+
+    main{
+        margin-top: 20%;
+    }
+
     section#tables .tables-main .tables-slides .card{
         width: 300px;
     }
@@ -146,7 +160,6 @@
     
     main {
         width: 100%;
-        margin-top: 25%;
         flex-direction: column;
         justify-content: center;
         align-items: center;

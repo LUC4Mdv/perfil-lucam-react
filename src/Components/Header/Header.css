@@ -4,8 +4,7 @@ header{
 }
 
 header .banner{
-    background-image: url("../../img/blue.gif");
-    opacity: 90%;
+    background-image: url("../../img/lucam-azul.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,7 +23,7 @@ header .logo-pai{
 
 header .logo{
     z-index: 1;
-    background-image: url("../../img/logo-animada.gif");
+    background-image: url("../../img/perfil-demon.png");
     background-size: cover;
     background-position: center center;
     width: 145px;

@@ -8,7 +8,7 @@ function MyComponent() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Programador', 'Designer Gráfico', 'Freelancer'],
+      strings: ['Melhores Preços', 'Super Confiável', 'Serviços Instantâneos'],
       typeSpeed: 155,
       backSpeed: 100,
       loop: true,
@@ -38,8 +38,8 @@ function Main() {
                     <h2>{MyComponent()}</h2>
                     <p className="link"><em>www.lucam.site</em></p>
                     <h2><i className="fa-solid fa-thumbs-up"></i> Seja bem-vindo(a)!</h2>
-                    <p className='des'>Faça seu orçamento no discord</p>
-                    <p className='des'><i class="fa-brands fa-discord"></i> Discord: luc4m_</p>
+                    <p className='des'>Faça seu orçamento nas minhas redes</p>
+                    <p className='des'>Aceito parcerias!</p>
                 </div>
                 <div className="icons">
                     <ul>
@@ -55,8 +55,9 @@ function Main() {
             <div className="conteudo">
                 <div className="links">
                     <ul>
-                        <li><a href="#biography" tabIndex="0">Biografia</a></li>
-                        <li><a href="#projects" tabIndex="0">Projetos</a></li>
+                        <li><a href="https://discord.gg/Qwxgry6yHX" 
+                        target='_blank' tabIndex="0">Discord</a></li>
+                        <li><a href="https://www.instagram.com/luc4mdv/" tabIndex="0" target='_blank'>Instagram</a></li>
                     </ul>
                 </div>
             </div>
