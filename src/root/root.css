@@ -10,6 +10,7 @@
     --bordinha: #000000cb;
     --type: #005fad;
     --icon: #ffffffd5;
+    --card: #9292928c;
     --tema: url("../assets/Moon.svg");
 
 }
@@ -24,5 +25,6 @@
     --bordinha: #ffffffd5;
     --type: #008cff;
     --icon: #008cff;
+    --card: #1f1f1fbd;
     --tema: url("../assets/SunWhite.svg");
 }

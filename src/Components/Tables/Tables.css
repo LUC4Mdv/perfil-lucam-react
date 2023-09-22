@@ -19,7 +19,7 @@ section#tables .tables-main h2{
     padding: 20px;
 }
 
-span{
+span.titile{
     color: var(--type);
 }
 
@@ -39,7 +39,7 @@ section#tables .tables-main .tables-slides .card{
     height: 500px;
     border-radius: 20px;
     width: 350px;
-    background-color: #1f1f1fbd;
+    background-color: var(--card);
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -61,9 +61,6 @@ section#tables .tables-main .tables-slides .card i{
     color: var(--icon);
 }
 
-section#tables .tables-main .tables-slides .card i{
-    font-size: 5em;
-}
 
 
 section#tables .tables-main .tables-slides .card ul li{
@@ -71,12 +68,19 @@ section#tables .tables-main .tables-slides .card ul li{
     gap: 10px;
     font-size: 1.2em;
     padding: 5px;
-    color: #d3d3d3;
+    color: var(--text-color);
+    
 }
 
-section#tables .tables-main .tables-slides .card ul li.dolar{
+section#tables .tables-main .tables-slides .card ul li.dolar {
     margin-top: 25px;
     font-size: 1.3em;
+    color: var(--icon);
+
+}
+
+section#tables .tables-main .tables-slides .card ul li.dolar span{
+    color: var(--icon);
 }
 
 section#tables .tables-main .tables-slides .card ul li.dolar,
@@ -84,14 +88,13 @@ section#tables .tables-main .tables-slides .card ul li.dolar i.dolar{
     font-weight: bold;
     display: flex;
     align-items: center;
+    color: var(--type);
     justify-content: center;
-    color: #008cff;
 }
 
 
 section#tables .tables-main .tables-slides .card ul li i{
     font-size: 1em;
-    color: var(--type);
 }
 
 
