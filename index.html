@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--
+        __       __    __   ______   __    __  __       __ 
+        |  \     |  \  |  \ /      \ |  \  |  \|  \     /  \
+        | $$     | $$  | $$|  $$$$$$\| $$  | $$| $$\   /  $$
+        | $$     | $$  | $$| $$   \$$| $$__| $$| $$$\ /  $$$
+        | $$     | $$  | $$| $$      | $$    $$| $$$$\  $$$$
+        | $$     | $$  | $$| $$   __  \$$$$$$$$| $$\$$ $$ $$
+        | $$_____| $$__/ $$| $$__/  \      | $$| $$ \$$$| $$
+        | $$     \\$$    $$ \$$    $$      | $$| $$  \$ | $$
+          \$$$$$$$$ \$$$$$$   \$$$$$$        \$$ \$$      \$$
+
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="author" content="Lucam">
+    <meta property="og:title" content="💸 Lucam" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://lucam.site" />
+    <meta property="og:image" content="https://github.com/LUC4Mdv.png" />
+    <meta property="og:description" content="👺 Acesso restrito" />
+    <meta name="twitter:card" content="summary_large_image">
+    <title>💸 Lucam</title>
+
+
+</head>
+<body>
+    <header>
+        <h1><span><</span> Lucam <span>></span></h1>
+    </header>
+
+    <main>
+            <h2>Plataforma privada</h2>
+            <h2><span class="data" align="center"></span></h2>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".data", {
+            strings : ["Apenas convidados", "IG: @luc4mdv"],
+            typeSpeed : 100,
+            backSpeed : 100,
+            loop: true,
+        })
+    </script>
+     <script>
+        window.onload = function () {
+      document.addEventListener(
+        "contextmenu",
+        function (e) {
+          e.preventDefault();
+        },
+        false
+      );
+
+      document.addEventListener(
+        "keydown",
+        function (e) {
+          //document.onkeydown = function(e) {
+          // "I" key
+          if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+            disabledEvent(e);
+          }
+          // "J" key
+          if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            disabledEvent(e);
+          }
+          // "S" key + macOS
+          if (
+            e.keyCode == 83 &&
+            (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)
+          ) {
+            disabledEvent(e);
+          }
+          // "U" key
+          if (e.ctrlKey && e.keyCode == 85) {
+            disabledEvent(e);
+          }
+          // "F12" key
+          if (event.keyCode == 123) {
+            disabledEvent(e);
+          }
+        },
+        false
+      );
+
+      function disabledEvent(e) {
+        if (e.stopPropagation) {
+          e.stopPropagation();
+        } else if (window.event) {
+          window.event.cancelBubble = true;
+        }
+        e.preventDefault();
+        return false;
+      }
+    };
+    </script>
+
+    <script>
+      var rev = "fwd";
+      function titlebar(val) {
+      var msg = "💸 Lucam";
+      var res = " ";
+      var speed = 200;
+      var pos = val;
+      msg = "" + msg + "";
+      var le = msg.length;
+      if (rev == "fwd") {
+        if (pos < le) {
+          pos = pos + 1;
+          scroll = msg.substr(0, pos);
+          document.title = scroll;
+          timer = window.setTimeout("titlebar(" + pos + ")", speed);
+        }
+      } else {
+        if (pos > 0) {
+          pos = pos - 1;
+          var ale = le - pos;
+          scrol = msg.substr(ale, le);
+          document.title = scrol;
+          timer = window.setTimeout("titlebar(" + pos + ")", speed);
+        } else {
+          rev = "fwd";
+          timer = window.setTimeout("titlebar(" + pos + ")", speed);
+        }
+      }
+    }
+    titlebar(0);
+    </script>
+</body>
+</html>
